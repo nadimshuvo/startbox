@@ -1,0 +1,82 @@
+@define-mixin atSmall {
+    @media (min-width: 530px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atMedium {
+    @media (min-width: 768px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLarge {
+    @media (min-width: 1010px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin atLargest {
+    @media (min-width: 1200px) {
+        @mixin-content;
+    }
+}
+
+
+/* Media Screen minimum-width ()px */
+
+@define-mixin at $min {
+    @media (min-width: $(min)px) {
+        @mixin-content;
+    }
+}
+
+
+/* Media Screen maximum-width ()px */
+
+@define-mixin atMax $max {
+    @media (max-width: $(max)px) {
+        @mixin-content;
+    }
+}
+
+
+/* Media Screen from (min)px to (max)px */
+
+@define-mixin from $min,
+$max {
+    @media (min-width: $(min)px) and (max-width: $(max)px) {
+        @mixin-content;
+    }
+}
+
+@define-mixin d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@define-mixin clearfix {
+    &::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@define-mixin flex $jc:space-between,
+$ai:center,
+$ac:center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $jc;
+    align-items: $ai;
+    align-content: $ac;
+}
