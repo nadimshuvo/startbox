@@ -94,7 +94,7 @@
                 font-weight: 700;
                 margin-bottom: 30px;
             }
-            .box input[type="text"] {
+            .text {
                 padding: 14px 20px;
                 font-size: 14px;
                 color: #17161A;
@@ -105,8 +105,12 @@
                 &::placeholder {
                     color: #17161A;
                 }
+                &:focus {
+                    background: rgba(240, 31, 75, .05);
+                }
             }
-            .box input[type="email"] {
+            .email {
+                margin-top: 13px;
                 padding: 14px 20px;
                 font-size: 14px;
                 color: #17161A;
@@ -130,15 +134,9 @@
                 &::placeholder {
                     color: #17161A;
                 }
-            }
-            .box input[type="text"]:focus {
-                background: rgba(240, 31, 75, .05);
-            }
-            .box input[type="email"]:focus {
-                background: rgba(240, 31, 75, .05);
-            }
-            .box input[type="email"] {
-                margin-top: 13px;
+                &:focus {
+                    background: rgba(240, 31, 75, .05);
+                }
             }
         }
         /* Select items */
