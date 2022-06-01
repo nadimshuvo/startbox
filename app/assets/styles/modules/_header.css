@@ -94,7 +94,18 @@
                 font-weight: 700;
                 margin-bottom: 30px;
             }
-            .box input[type="text"],
+            .box input[type="text"] {
+                padding: 14px 20px;
+                font-size: 14px;
+                color: #17161A;
+                background-color: rgba(177, 177, 180, 0.17);
+                border: none;
+                border-radius: 6px;
+                width: 100%;
+                &::placeholder {
+                    color: #17161A;
+                }
+            }
             .box input[type="email"] {
                 padding: 14px 20px;
                 font-size: 14px;
@@ -120,26 +131,14 @@
                     color: #17161A;
                 }
             }
-            .box input[type="text"]:focus,
+            .box input[type="text"]:focus {
+                background: rgba(240, 31, 75, .05);
+            }
             .box input[type="email"]:focus {
                 background: rgba(240, 31, 75, .05);
             }
             .box input[type="email"] {
                 margin-top: 13px;
-            }
-            .box input[type="submit"] {
-                border: 0;
-                background: none;
-                display: block;
-                margin: 20px auto;
-                text-align: center;
-                border: 2px solid #2ecc71;
-                padding: 14px 40px;
-                outline: none;
-                color: white;
-                border-radius: 24px;
-                transition: 0.25s;
-                cursor: pointer;
             }
         }
         /* Select items */
