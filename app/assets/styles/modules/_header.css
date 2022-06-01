@@ -94,7 +94,7 @@
                 font-weight: 700;
                 margin-bottom: 30px;
             }
-            .text {
+            input[type=text] {
                 padding: 14px 20px;
                 font-size: 14px;
                 color: #17161A;
@@ -109,7 +109,7 @@
                     background: rgba(240, 31, 75, .05);
                 }
             }
-            .email {
+            input[type=email] {
                 margin-top: 13px;
                 padding: 14px 20px;
                 font-size: 14px;
@@ -118,19 +118,6 @@
                 border: none;
                 border-radius: 6px;
                 width: 100%;
-                /*  */
-                /*  border: 0;
-                background: none;
-                display: block;
-                margin: 20px auto;
-                text-align: center;
-                border: 2px solid #3498db;
-                padding: 14px 10px;
-                width: 200px;
-                outline: none;
-                color: white;
-                border-radius: 24px;
-                transition: 0.25s; */
                 &::placeholder {
                     color: #17161A;
                 }
