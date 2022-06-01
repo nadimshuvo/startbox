@@ -44,3 +44,20 @@ h6 {
     color: #111827;
     text-align: center;
 }
+
+.btn {
+    color: #fff;
+    background-color: #F01F4B;
+    font-weight: 700;
+    line-height: 1.5;
+    padding: 15px 40px;
+    font-size: 1rem;
+    border-radius: 50rem;
+    border: none;
+    transition: transform .3s ease-out;
+    cursor: pointer;
+    &:hover {
+        background-color: #e60f3d;
+        transform: translateY(-7px);
+    }
+}
