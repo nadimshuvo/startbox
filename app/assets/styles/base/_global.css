@@ -61,3 +61,11 @@ h6 {
         transform: translateY(-7px);
     }
 }
+
+.button {
+    a {
+        color: #F01F4B;
+        font-weight: 700;
+        border-bottom: 2px solid #F01F4B;
+    }
+}

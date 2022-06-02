@@ -1,12 +1,15 @@
 import "../styles/styles.css";
 import "lazysizes";
+import Parallox from "./modules/Parallox";
 import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 
+// new Parallox();
+new RevealOnScroll(document.querySelectorAll(".rvl"), 75)
+
 // new StickyHeader()
 // ADD the Exact classes name for revealing effects and percentages;
-// new RevealOnScroll(document.querySelectorAll(".add-class"), 75)
 // new RevealOnScroll(document.querySelectorAll(".add-class"), 60)
 // ADD the Exact classes name for revealing effects and percentages;
 // new MobileMenu();
@@ -27,5 +30,5 @@ import StickyHeader from "./modules/StickyHeader";
 // })
 
 if (module.hot) {
-  module.hot.accept();
+    module.hot.accept();
 }
