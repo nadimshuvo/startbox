@@ -58,6 +58,37 @@
         justify-content: space-between;
         align-items: center;
         height: 532px;
+        #fname {
+            padding: 14px 20px;
+            font-size: 14px;
+            color: #17161A;
+            background-color: rgba(177, 177, 180, 0.17);
+            border: none;
+            border-radius: 6px;
+            width: 100%;
+            &::placeholder {
+                color: #17161A;
+            }
+            &:focus {
+                background: rgba(240, 31, 75, .05);
+            }
+        }
+        #email {
+            margin-top: 13px;
+            padding: 14px 20px;
+            font-size: 14px;
+            color: #17161A;
+            background-color: rgba(177, 177, 180, 0.17);
+            border: none;
+            border-radius: 6px;
+            width: 100%;
+            &::placeholder {
+                color: #17161A;
+            }
+            &:focus {
+                background: rgba(240, 31, 75, .05);
+            }
+        }
         .left {
             h1 {
                 font-size: 3.125em;
@@ -93,37 +124,6 @@
                 color: #17161A;
                 font-weight: 700;
                 margin-bottom: 30px;
-            }
-            input[type=text] {
-                padding: 14px 20px;
-                font-size: 14px;
-                color: #17161A;
-                background-color: rgba(177, 177, 180, 0.17);
-                border: none;
-                border-radius: 6px;
-                width: 100%;
-                &::placeholder {
-                    color: #17161A;
-                }
-                &:focus {
-                    background: rgba(240, 31, 75, .05);
-                }
-            }
-            input[type=email] {
-                margin-top: 13px;
-                padding: 14px 20px;
-                font-size: 14px;
-                color: #17161A;
-                background-color: rgba(177, 177, 180, 0.17);
-                border: none;
-                border-radius: 6px;
-                width: 100%;
-                &::placeholder {
-                    color: #17161A;
-                }
-                &:focus {
-                    background: rgba(240, 31, 75, .05);
-                }
             }
         }
         /* Select items */
