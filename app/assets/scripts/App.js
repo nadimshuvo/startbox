@@ -1,10 +1,10 @@
 import "../styles/styles.css";
 import "lazysizes";
-import Parallox from "./modules/Parallox";
-import MobileMenu from "./modules/MobileMenu";
+// import Parallox from "./modules/Parallox";
+// import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnScroll";
 import Accordion from "./modules/Accordion.Js";
-import StickyHeader from "./modules/StickyHeader";
+// import StickyHeader from "./modules/StickyHeader";
 
 // new Parallox();
 new RevealOnScroll(document.querySelectorAll(".rvl"), 75);
