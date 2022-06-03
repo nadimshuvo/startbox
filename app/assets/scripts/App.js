@@ -3,10 +3,12 @@ import "lazysizes";
 import Parallox from "./modules/Parallox";
 import MobileMenu from "./modules/MobileMenu";
 import RevealOnScroll from "./modules/RevealOnScroll";
+import Accordion from "./modules/Accordion.Js";
 import StickyHeader from "./modules/StickyHeader";
 
 // new Parallox();
-new RevealOnScroll(document.querySelectorAll(".rvl"), 75)
+new RevealOnScroll(document.querySelectorAll(".rvl"), 75);
+new Accordion();
 
 // new StickyHeader()
 // ADD the Exact classes name for revealing effects and percentages;
