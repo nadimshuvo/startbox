@@ -1,5 +1,5 @@
     .header {
-        background: url('https://runwebrun.com/startbox/assets/img/home-4-hero-1920x1080.jpg');
+        background: url("https://runwebrun.com/startbox/assets/img/home-4-hero-1920x1080.jpg");
         object-fit: cover;
         object-position: 50% 50%;
         background-position: 50%;
@@ -715,7 +715,7 @@
             }
         }
         .acc-arrow {
-            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 16 10'%3e%3cpath fill='%2317161A' d='m8 8-.707.707.707.707.707-.707L8 8ZM.293 1.707l7 7 1.414-1.414-7-7L.293 1.707Zm8.414 7 7-7L14.293.293l-7 7 1.414 1.414Z'/%3e%3c/svg%3e");
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='#FF0000' viewBox='0 0 16 10'%3e%3cpath fill='%2317161A' d='m8 8-.707.707.707.707.707-.707L8 8ZM.293 1.707l7 7 1.414-1.414-7-7L.293 1.707Zm8.414 7 7-7L14.293.293l-7 7 1.414 1.414Z'/%3e%3c/svg%3e");
             background-repeat: no-repeat;
             object-fit: cover;
             object-position: 50% 50%;
@@ -728,7 +728,7 @@
             transition: transform .2s ease-out;
             &--rotate {
                 transform: rotate(-180deg);
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 16 10'%3e%3cpath fill='%red' d='m8 8-.707.707.707.707.707-.707L8 8ZM.293 1.707l7 7 1.414-1.414-7-7L.293 1.707Zm8.414 7 7-7L14.293.293l-7 7 1.414 1.414Z'/%3e%3c/svg%3e");
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='#FF0000' viewBox='0 0 16 10'%3e%3cpath fill='%red' d='m8 8-.707.707.707.707.707-.707L8 8ZM.293 1.707l7 7 1.414-1.414-7-7L.293 1.707Zm8.414 7 7-7L14.293.293l-7 7 1.414 1.414Z'/%3e%3c/svg%3e");
             }
         }
         .hidden-content {
