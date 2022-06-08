@@ -19,15 +19,15 @@ class Parallox {
 
 
     plox() {
-        console.log(window.scrollY + this.browserHeight);
+        // console.log(window.scrollY + this.browserHeight);
         // console.log(this.image.offsetTop);
         let y = window.scrollY + this.browserHeight;
-        console.log(y);
+        // console.log(y);
         if (window.scrollY + this.browserHeight > this.image.offsetTop && window.scrollY + this.browserHeight < 5988) {
             // console.log('Alhamdulillah');
             let x = 4488;
-            let value = ((window.scrollY + this.browserHeight) - x) / -10;
-            // console.log(value);
+            let value = ((window.scrollY + this.browserHeight) - x) / -7;
+            console.log(value);
             this.image.style.bottom = value + 'px';
 
         }
